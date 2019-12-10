@@ -1,18 +1,20 @@
 ---
 layout: page
-title: About
+title: Impressum
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+#### Information über uns
+Wir sind zwei Studenten aus Deutschland und Kolumbien und wollen mit dieser Website und [Youtube Videos](https://www.youtube.com/channel/UCT7OJquYzFHHpyjkZL8APFw/featured) unsere Erfahrungen mit Arduino Programmierung und Elektronik im Allgemeinen mit euch teilen.  
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+**Unsere Tutorials und Arduino Projekte allgemein sollten niemals für sicherheitsrelevante oder sicherheitskritische Anwendungen verwendet werden! Außerdem sollte NIEMALS ein Schaltkreis direkt an das Stromnetz angeschlossen werden, sondern IMMER über ein Netzteil oder einen Akku betrieben werden!**  
 
+Für Kritik, Wünsche, spezifische Fragen oder andere Sachen schreibt uns einfach eine Mail an **roboter.tutorials.german@gmail.com**.  
 
-[jekyll-organization]: https://github.com/jekyll
+***
+
+#### Impressum
+Nikolas Roßkopf  
+Hebelstr. 13  
+79688 Hausen  

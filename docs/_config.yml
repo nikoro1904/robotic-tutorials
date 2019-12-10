@@ -1,36 +1,23 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: Robotic Tutorials
+author: Niko Roßkopf
+email: roboter.tutorials.german@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Arduino und Elektronik Tutorials auf deutsch!
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: "%-d. %B %Y"
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
-    rss: rss
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-    # keybase: jekyll
+    github:  nikoro1904
+#    rss: rss
+    # youtube: Robotic Tutorials
+    # youtube_channel: UCT7OJquYzFHHpyjkZL8APFw
+    # youtube_channel_name: Robotic Tutorials
 
     # Mastodon instances
     # mastodon:
