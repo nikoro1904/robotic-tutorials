@@ -9,8 +9,6 @@ Wir sind zwei Studenten aus Deutschland und Kolumbien und wollen mit dieser Webs
 
 <a href='https://www.youtube.com/channel/UCT7OJquYzFHHpyjkZL8APFw/featured'><img src='../assets/media/marketing/QR_code_yt.png' alt='QR_Code' width='150' /></a>
 
-[<img src="../assets/media/marketing/QR_code_yt.png" width=150>](http://google.com.au/)
-
 **Unsere Tutorials und Arduino Projekte allgemein sollten niemals für sicherheitsrelevante oder sicherheitskritische Anwendungen verwendet werden! Außerdem sollte NIEMALS ein Schaltkreis direkt an das Stromnetz angeschlossen werden, sondern IMMER über ein Netzteil oder einen Akku betrieben werden!**  
 
 Für Kritik, Wünsche, spezifische Fragen oder andere Sachen schreibt uns einfach eine Mail an roboter.tutorials.german@gmail.com.  
