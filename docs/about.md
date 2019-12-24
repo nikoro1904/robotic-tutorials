@@ -4,6 +4,7 @@ title: Impressum
 permalink: /about/
 ---
 
+![asdf](../assets/article_media/tutorial_schieberegister/4_bit_simple.jpeg "asdf")
 
 ### Information über uns
 Wir sind zwei Studenten aus Deutschland und Kolumbien und wollen mit dieser Website und [Youtube Videos](https://www.youtube.com/channel/UCT7OJquYzFHHpyjkZL8APFw/featured) unsere Erfahrungen mit Arduino Programmierung und Elektronik im Allgemeinen mit euch teilen.  
