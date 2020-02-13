@@ -10,7 +10,7 @@ categories:
 
 
 ##### Zu diesem Text haben wir ein Video auf unserem YouTube-Kanal hochgeladen:
-<iframe width="728" height="410" src="https://www.youtube.com/embed/0AR1Knf9hLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="728" height="410" src="https://www.youtube.com/embed/xMDiBpyuriU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 -----------------------------------------------
 
@@ -152,7 +152,7 @@ In die shiftOut()-Funktion müssen wir folgende Informationen mitreinschreiben:
 Am SERIAL OUT Pin des Schieberegisters könnten wir auslesen, welche Bits aus dem Schieberegister rausgeschoben werden, also quasi der Überlauf. Wir können auch das Schieberegister auslesen, indem wir z.B. 0x00 hereinschieben und den Ausgang auslesen. Solange wir keine aufsteigende Flanke an den RCK-Pin schicken, werden die Zustände der Transistoren (bzw. der Drain-Pins oder der Ausgänge) nicht übernommen. Zum Auslesen des Registers verwendet man die [shiftIn()-Funktion](https://www.arduino.cc/reference/en/language/functions/advanced-io/shiftin/).
 
 ### Mehrere Schieberegister kaskadieren / aneinanderhängen
-Wenn wir nicht nur 8, sondern z.B. 16 oder 24 LEDs so schalten wollen, können wir 2 bzw. 3 Schieberegister aneinanderhängen, d.h. wir verbinden den SERIAL OUT Pin des 1. Registers mit dem SERIAL IN PIn des 2. Registers und so weiter. Die Steuerpins RCK, SRCK u.s.w. können zwischen den Schieberegistern verbunden werden. Dann können wir entweder eine 16-Bit Variable an den ersten SERIAL IN Pin schicken (das wäre eine Variable vom Typ ```int```), oder wir schicken einfach zwei oder drei 8-Bit Variablen (vom Typ ```char```) direkt nacheinander. Die aufsteigende Flanke für den RCK-Pin dürfen wir dann aber erst nach dem letzten shiftOut() schicken.
+Wenn wir nicht nur 8, sondern z.B. 16 oder 24 LEDs so schalten wollen, können wir 2 bzw. 3 Schieberegister aneinanderhängen, d.h. wir verbinden den SERIAL OUT Pin des 1. Registers mit dem SERIAL IN PIn des 2. Registers und so weiter. Die Steuerpins RCK, SRCK u.s.w. können zwischen den Schieberegistern verbunden werden. Dann müssen wir zwei oder drei 8-Bit Variablen (vom Typ ```char``` oder ```byte```) direkt nacheinander an den SERIAL IN-Pin schicken. Die aufsteigende Flanke für den RCK-Pin dürfen wir dann aber erst nach dem letzten shiftOut() schicken.
 
 ------------------------------------------------------------------
 
