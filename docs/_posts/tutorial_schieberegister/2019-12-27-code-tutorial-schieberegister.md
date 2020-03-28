@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beispielprogramme zu Tutorial #14"
+title: "Beispielprogramme zu Tutorial #14 - Schieberegister"
 categories:
 ---
 Das sind die Beispielprogramme, die im Youtube-Video verwendet wurden. 

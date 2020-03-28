@@ -3,6 +3,7 @@ layout: post
 title: "Beispielprogramme zu Tutorial #15 - Schrittmotor"
 categories:
 ---
+Das sind die Beispielprogramme, die im YouTube-Video verwendet wurden.
 
 **Ansteuerung mit Stepper.h library**
 ```c
@@ -177,3 +178,7 @@ void loop() {
   }
 }
 ```
+
+Eine Erklärung dieser Programme wird in [diesem Post](https://nikoro1904.github.io/robotic-tutorials/2020/03/29/tutorial-schrittmotor.html) und in diesem YouTube-Video gegeben.
+
+<iframe width="728" height="410" src="https://www.youtube.com/embed/dYo7K8SLafk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
