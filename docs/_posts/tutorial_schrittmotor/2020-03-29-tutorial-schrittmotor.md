@@ -14,7 +14,7 @@ Wir haben zu diesem Motor auch ein Video auf YouTube veröffentlicht. Die Arduin
 
 Ein Schrittmotor ist ein Gleichstrommotor, bei dem man den Schrittwinkel sehr genau einstellen kann. Die Winkelauflösung hängt dabei vom Typ ab, manche einfachen Motoren benötigen nur sechs Schritte pro Umdrehung. Das ist ziemlich unpraktisch, daher werden in der Regel Hybridschrittmotoren verwendet, die von der amerikanischen [NEMA](https://www.nema.org/pages/default.aspx) genormt sind. Diese Motoren haben alle 200 Schritte für 360°. Das erlaubt z.B. den Einsatz in Robotiksystemen und 3D-Druckern. Daher ist es sinnvoll, einen solchen Schrittmotor für sein Projekt zu verwenden.
 
-![auseinandergebauter Schrittmotor](../../../assets/media/tutorial_schieberegister/stepper_motor_stock_1.jpg "Ein auseinandergebauter Schrittmotor. Image by https://pixabay.com/users/martinjurekcz-8203231/ from https://pixabay.com/")
+![auseinandergebauter Schrittmotor](../../../assets/media/tutorial_schrittmotor/stepper_motor_stock_1.jpg "Ein auseinandergebauter Schrittmotor. Image by https://pixabay.com/users/martinjurekcz-8203231/ from https://pixabay.com/")
 
 ## Welchen Schrittmotor brauche ich?
 
@@ -25,13 +25,13 @@ Unser Schrittmotor ist ein [Hybridschrittmotor](https://www.youtube.com/watch?v=
 
 Der Motor hat zwei Spulen (man spricht auch von Phasen, daher: zweiphasiger Schrittmotor). Diese Spulen haben die Anschlüsse A, A', B und B'. Zu welchen Kabeln diese gehören, sehen wir im Datenblatt nach. Sonst kann man das auch mit dem Multimeter messen (Spulen haben für Gleichstrom keinen ohmschen Widerstand) und einfach ausprobieren.
 
-![Ausschnitt aus dem Datenblatt des Motors](../../../assets/media/tutorial_schieberegister/Screenshot_Datenblatt_Motor.png "Ausschnitt aus dem Datenblatt des Motors")
+![Ausschnitt aus dem Datenblatt des Motors](../../../assets/media/tutorial_schrittmotor/Screenshot_Datenblatt_Motor.png "Ausschnitt aus dem Datenblatt des Motors")
 
 ## Wie funktioniert die Ansteuerung des Schrittmotors?
 
 Die Ansteuerung eines Schrittmotors ist nicht ganz einfach. Im Datenblatt sehen wir, dass für die benötigte Spannung und den Strom der Arduino nicht ausreicht. Wir verwenden deshalb eine [H-Brücke](https://en.wikipedia.org/wiki/H_bridge), den Chip L293B.
 
-![Ausschnitt aus dem Datenblatt des L293B](../../../assets/media/tutorial_schieberegister/L293B_Datasheet.jpg "Ausschnitt aus dem Datenblatt des L293B")
+![Ausschnitt aus dem Datenblatt des L293B](../../../assets/media/tutorial_schrittmotor/L293B_Datasheet.jpg "Ausschnitt aus dem Datenblatt des L293B")
 
 Der L293B funktioniert im Prinzip ein bisschen wie mehrere Relais. Wir können ihm digitale TTL-Signale aus dem Arduino senden, der Chip schaltet dementsprechend eine externe Spannungsquelle und gibt die höheren Spannungen und Ströme an den Motor weiter. 
 
@@ -44,7 +44,7 @@ Wir schließen Arduino, L293B, den Motor und die externe Quelle wie folgt zusamm
 * Der Vs-Pin (8) geht zur externen Spannungsquelle. Er versorgt dann indirekt den Motor) mit Strom.
 * Die Ground-Pins (4, 5, 12, 13) des L293B verbindet man mit dem GND des Arduino und der externen Spannungsquelle. Für den Testbetrieb reicht es aus, wenn nur ein Pin des Chips verwendet wird.
 
-![Schaltplan Schrittmotor und L293B](../../../assets/media/tutorial_schieberegister/Schaltplan_Schrittmotor.jpg "Schaltplan Schrittmotor und L293B")
+![Schaltplan Schrittmotor und L293B](../../../assets/media/tutorial_schrittmotor/Schaltplan_Schrittmotor.jpg "Schaltplan Schrittmotor und L293B")
 
 Um den Schrittmotor zu bewegen, müssen wir jetzt die Anschlüsse immer abwechselnd in unterschiedlichen Richtungen mit Strom versorgen. Hierfür gibt es verschiedene Möglichkeiten. 
 
