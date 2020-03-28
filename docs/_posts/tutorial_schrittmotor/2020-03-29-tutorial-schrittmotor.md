@@ -87,9 +87,9 @@ void setup() {
 
 void loop() {
   // Doppelte for-Schleife zur Ansteuerung des Motors:
-  for (int s = 0; s < 8; s++) {
+  for (int s = 0; s < 4; s++) {
     for (int p = 0; p < 4; p++) {
-      digitalWrite(pin[p], halfstep[s][p]);
+      digitalWrite(pin[p], fullstep[s][p]);
     }
     delayMicroseconds(waitTime);
   }
