@@ -4,7 +4,7 @@ title: "Beispielprogramme zu Tutorial #15 - Schrittmotor"
 categories:
 ---
 
-## Ansteuerung mit Stepper.h library
+**Ansteuerung mit Stepper.h library**
 ```c
 // Robotic Tutorials Schrittmotor Tutorial
 // Test der Stepper library
@@ -38,7 +38,7 @@ void loop() {
 }
 ```
 
-## Manuelle Ansteuerung im Vollschritt-, Halbschritt- oder Wavedrivebetrieb
+**Manuelle Ansteuerung im Vollschritt-, Halbschritt- oder Wavedrivebetrieb**
 ```c
 /* Beispielcode für Schrittmotor-Tutorial (Vollschritt-, Halbschritt-, Wavedrive-Betrieb)
    Robotic Tutorials, 15.02.2020
@@ -104,7 +104,7 @@ void loop() {
 ```
 
 
-## Manuelle Ansteuerung im Mikroschritt-Betrieb
+**Manuelle Ansteuerung im Mikroschritt-Betrieb**
 ```c
 /* Beispielcode für Schrittmotor-Tutorial (Mikroschritt-Betrieb)
    Robotic Tutorials, 15.02.2020
