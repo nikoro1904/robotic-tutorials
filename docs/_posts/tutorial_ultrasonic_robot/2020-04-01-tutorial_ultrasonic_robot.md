@@ -4,9 +4,9 @@ title: "Arduino Code for Tutorial #17: Ultrasonic Robot"
 categories:
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hcRbmlVoC-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 This is the Arduino Code we used in the tutorial.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hcRbmlVoC-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ```c
 /*
