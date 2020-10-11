@@ -4,7 +4,7 @@ title: "Arduino-Grundlagen für absolute Anfänger"
 categories:
 ---
 
-##Was ist ein Arduino?
+## Was ist ein Arduino?
 Ein Arduino ist ein Mikrocontroller (wird manchmal mit µC abgekürzt) auf einer kleinen Platine, zusammen mit ein paar zusätzlichen elektronischen Bauteilen, sodass man ihn ganz einfach verwenden kann. Der eigentliche Mikrocontroller ist nur ein kleiner Chip auf der Platine, z.B. ein ATmega328P von der Firma Atmel. Die Firma “Arduino” hat die Schaltpläne für die Platinen frei verfügbar veröffentlicht, sodass man Arduino-Boards nicht nur von der offiziellen Marke kaufen kann, sondern es gibt auch viele sogenannte “Klone”, die in der Regel billiger sind und genauso gut funktionieren. 
 
 <iframe width="728" height="410" src="https://www.youtube.com/embed/b-VcfwqDJLU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -17,8 +17,8 @@ Zur eben beschriebenen Hardware benötigt man auch eine Software, um dem Arduino
 
 ![Screenshot von der Download-Seite der Arduino IDE](../../../assets/media/tutorial_absolute_anfaenger/download_screenshot.jpg "Screenshot von der Download-Seite der Arduino IDE")
 
-##Was benötige ich, um einen Arduino zu programmieren?
-###Minimal-Setup
+## Was benötige ich, um einen Arduino zu programmieren?
+### Minimal-Setup
 Grundsätzlich braucht man zur Arduino-Programmierung nur 3 Dinge:
 
 - einen Computer (Linux, Mac, Windows, …)
@@ -31,7 +31,7 @@ Mit dem Computer lädt man die Arduino IDE herunter (hier) und installiert sie. 
 
 ![Ein Original-Arduino vom Modell UNO](../../../assets/media/tutorial_absolute_anfaenger/arduino-stock.jpg "Ein Original-Arduino vom Modell UNO")
 
-###Was sollte ich noch dazu kaufen?
+### Was sollte ich noch dazu kaufen?
 Mit dem Minimal-Setup kann man nicht wirklich etwas anfangen. Was man dazu kaufen sollte, hängt natürlich davon ab, was man mit dem Arduino anfangen will. Auf jeden Fall sinnvoll ist folgendes:
 
 - ein Steckbrett (Breadboard)
