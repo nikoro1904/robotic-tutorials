@@ -2,12 +2,15 @@
 layout: post
 title: "Beispielprogramme zu Tutorial #14 - Schieberegister"
 categories:
+
 ---
+
 Das sind die Beispielprogramme, die im Youtube-Video verwendet wurden. 
 
 <iframe width="728" height="410" src="https://www.youtube.com/embed/xMDiBpyuriU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 1. In das Schieberegister schreiben
+
 ```c
 /* Robotic Tutorials Beispielcode Tutorial 14: Schieberegister 
  *  26.12.2019
@@ -97,7 +100,9 @@ void loop() {
 
 }
 ```
+
 ### 2. Aus dem Schieberegister lesen
+
 ```c
 /* Robotic Tutorials Beispielcode Tutorial 14: Schieberegister 
  * 26.12.2019   
