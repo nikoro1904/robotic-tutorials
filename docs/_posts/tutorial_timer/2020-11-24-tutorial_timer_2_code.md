@@ -2,7 +2,6 @@
 layout: post
 title: "Beispielprogramme zu Tutorials #17 und #18 - Timer-Funktionen"
 categories:
-
 ---
 
 
