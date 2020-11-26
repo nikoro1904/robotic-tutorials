@@ -10,7 +10,7 @@ Das sind die Beispielprogramme, die im (zweiten) Youtube-Video verwendet wurden.
 
 <iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 1. Die Header-Datei "pwm.h"
+## 1. Die Header-Datei "pwm.h"
 
 ```c
 class pwm{
@@ -55,7 +55,7 @@ int pwm::getDC(){
 }
 ```
 
-### 2. Der Fast-PWM-Modus "1_Fast_PWM.ino"
+## 2. Der Fast-PWM-Modus "1_Fast_PWM.ino"
 
 ```c
 /* By Robotic Tutorials
@@ -108,7 +108,7 @@ void loop() {
 }
 ```
 
-### 3. Der Phase-Correct-PWM-Modus "2_Phase_Correct_PWM.ino"
+## 3. Der Phase-Correct-PWM-Modus "2_Phase_Correct_PWM.ino"
 
 ```c
 /* By Robotic Tutorials
@@ -159,7 +159,7 @@ void loop() {
 }
 ```
 
-### 04. Das Testprogramm "4_PWM.ino"
+## 04. Das Testprogramm "4_PWM.ino"
 
 ```c
 /* 
