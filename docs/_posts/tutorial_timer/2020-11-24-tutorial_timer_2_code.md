@@ -5,17 +5,7 @@ categories:
 excerpt_separator: <!--mehr-->
 ---
 
-<a href="https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html">
-  <img src="{% link assets/media/tutorial_timer/preview_timer.png %}" alt="Titelbild" style="width:100%;height:100%">
-</a>
-
-[![Titelbild_1]({% link assets/media/tutorial_timer/preview_timer.png %}](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
-
 [![Titelbild_2](assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
-
-<a href="https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html">
-  <img src="/assets/media/tutorial_timer/preview_timer.png" alt="Titelbild_3" style="width:100%;height:100%">
-</a>
 
 <!--mehr-->
 
@@ -28,6 +18,8 @@ Video Teil 1/2:
 Video Teil 2/2:
 
 <iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Alle Arduino-Programme herunterladen](/assets/media/tutorial_timer/code_timer.zip)
 
 ## 1. Die Header-Datei "pwm.h"
 
