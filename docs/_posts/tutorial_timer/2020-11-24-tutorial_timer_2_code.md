@@ -5,9 +5,13 @@ categories:
 excerpt_separator: <!--mehr-->
 ---
 
-<a href="{% link _posts/tutorial_timer/2020-11-24-tutorial_timer_2_code.md %}">
-  <img src="{% link assets/media/tutorial_timer/preview_timer.png" alt="Titelbild" style="width:100%;height:100%">
+<a href="https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html">
+  <img src="{% link assets/media/tutorial_timer/preview_timer.png %}" alt="Titelbild" style="width:100%;height:100%">
 </a>
+
+[![Titelbild][{% link assets/media/tutorial_timer/preview_timer.png %}]][https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html]
+
+
 
 <!--mehr-->
 
