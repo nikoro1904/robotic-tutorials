@@ -19,8 +19,7 @@ Video Teil 2/2:
 
 <iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Alle Arduino-Programme herunterladen][1]
-[1]:{{ site.url }}/assets/media/tutorial_timer/code_timer.zip
+[Alle Arduino-Programme herunterladen][/assets/media/tutorial_timer/code_timer.zip]
 
 ## 1. Die Header-Datei "pwm.h"
 
