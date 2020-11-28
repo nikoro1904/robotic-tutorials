@@ -59,6 +59,7 @@ Für die manuelle Ansteuerung kann man zwischen verschiedenen Modi wählen, unte
 + Mikroschrittbetrieb (micro step mode)
 
 ### Vollschrittbetrieb
+
 Im Vollschrittbetrieb haben wir das höchste Drehmoment. Es werden immer beide Spulen bestromt, die Reihenfolge ist dabei: AB, BA', A'B', B'A' und wieder von vorne. Bei jedem Umschalten bewegt sich der Motor einen Schritt (also 1,8°) weiter. Für Schritte in die umgekehrte Richtung dreht man die Reihenfolge einfach um. 
 
 Im Arduino-Code machen wir das so: Wir definieren ein zweidimensionales Array für die vier Kombinationen und mit einer doppelten for-Schleife (einer übergeordneten für die Schritte und einer untergeordneten für die vier Pins) setzen wir die Pins auf HIGH oder LOW. Weil der Arduino schneller taktet, als sich der Motor bewegen kann, müssen wir nach jedem Schritt noch ein kleines Delay von mind. 0,4 ms einbauen.  
@@ -97,6 +98,7 @@ void loop() {
 ```
 
 ### Wavedrive-Betrieb
+
 Der Wavedrive-Betrieb ist die einfachste Art der manuellen Ansteuerung. Es ist immer nur eine Spule bestromt, die Reihenfolge ist A, B, A', B'. Wir haben deshalb auch nur halb so viel Drehmoment wie beim Vollschrittbetrieb, dafür aber auch nur halb so viel Stromverbrauch.  
 Für den Arduino-Code ändert sich nur das Array, der Rest der Ansteuerung ist identisch wie beim Vollschrittbetrieb.
 
@@ -110,6 +112,7 @@ int wavedrive[4][4] = {   {HIGH, LOW, LOW, LOW },  // s = 0
 ```
 
 ### Halbschrittbetrieb
+
 Im Halbschrittbetrieb machen wir nur halb so große Schritte (0,9° pro Schritt) und brauchen daher acht Kombinationen der Beschaltung der Spulen. Da immer abwechselnd eine und dann beide Spulen bestromt werden, ist das Drehmoment nicht konstant. Die Reihenfolge der Schaltung ist: A, AB, B, BA', A', A'B', B', B'A. Deshalb muss man in der Ansteuerung noch die äußere for-Schleife von vier auf acht Durchläufe ändern.
 
 ```cpp
@@ -126,6 +129,7 @@ int halfstep[8][4] = {   {HIGH, LOW, LOW, LOW },   // s = 0
 ```
 
 ### Mikroschrittbetrieb
+
 Im Mikroschrittbetrieb kann man den Motor in deutlich kleineren Schritten bewegen. Dazu legt man eine sinusförmige Spannung an Spule A und eine cosinusförmige an Spule B. Nun kann man mit dem Arduino keine echten analogen Spannungen erzeugen, sondern nur zeitdiskrete PWM-Signale. Das ermöglicht uns, die Anzahl der Schritte pro Periode (des Sinus) fast beliebig einzustellen. Bei nur vier Schritten pro Periode ist der Mikroschrittbetrieb identisch zum Wavedrivebetrieb. Man kann aber auch nicht beliebig viele Schritte einstellen, da der Arduino das PWM-Signal nur in 8 Bit auflöst, das heißt es gibt max. 256 verschiedene "pseudo-analoge" Spannungswerte.
 
 Wir stellen deshalb die Amplitude unseres berechneten Sinus auf 255 ein. Positive Werte für Spule A geben wir direkt an Pin A weiter. Negative Werte für Spule A wandeln wir in positive Werte um und geben sie an Pin A' weiter, da der Arduino ja auch keine negativen Spannungen ausgeben kann. 

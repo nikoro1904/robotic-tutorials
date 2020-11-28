@@ -6,7 +6,7 @@ excerpt_separator: <!--mehr-->
 ---
 
 <a href="{% link _posts/tutorial_timer/2020-11-24-tutorial_timer_2_code.md %}">
-  <img src="../../../assets/media/tutorial_timer/preview_timer.png" alt="Titelbild" style="width:100%;height:100%">
+  <img src="{% link assets/media/tutorial_timer/preview_timer.png" alt="Titelbild" style="width:100%;height:100%">
 </a>
 
 <!--mehr-->
@@ -14,11 +14,12 @@ excerpt_separator: <!--mehr-->
 Das sind die Beispielprogramme, die im (zweiten) Youtube-Video verwendet wurden. 
 
 Video Teil 1/2:
+
 <iframe width="728" height="410" src="https://www.youtube.com/embed/lj4yvjqSDcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Video Teil 2/2:
-<iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1. Die Header-Datei "pwm.h"
 
@@ -402,4 +403,3 @@ void menuCfgActive(){
 
 /* End of Programm 4_PWM , by Robotic Tutorials */
 ```
-

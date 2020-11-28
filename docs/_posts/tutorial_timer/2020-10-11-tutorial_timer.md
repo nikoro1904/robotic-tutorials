@@ -26,7 +26,7 @@ Man kann z.B. eine LED mit einem PWM-Signal anstatt einer Gleichspannung ansteue
 
 Ein PWM-Signal zu generieren, ist dank den Arduino-Funktionen sehr einfach. Zunächst muss man aber schauen, dass man auch den richtigen I/O-Pin verwendet, sonst ist die Fehlersuche nachher sehr frustrierend. Folgende Tabelle zeigt die PWM-Pins verschiedener Arduino-Modelle:
 
-|           BOARD           |            PWM PINS            |                PWM FREQUENZ                |
+| BOARD                     | PWM PINS                       | PWM FREQUENZ                               |
 |:-------------------------:|:------------------------------:|:------------------------------------------:|
 | Uno, Nano, Mini           | 3, 5, 6, 9, 10, 11             | 490 Hz (Pins 5 und 6: 980 Hz)              |
 | Mega                      | 2 - 13, 44 - 46                | 490 Hz (Pins 4 und 13: 980 Hz)             |
@@ -55,6 +55,7 @@ analogWrite(ledPin, dutyCycle);
 Man kann ein PWM-Signal natürlich auch manuell erzeugen, indem man den Pin auf HIGH setzt (mit digitalWrite), dann z.B. mit der delay()-Funktion wartet, den Pin wieder auf LOW setzt, dann wieder wartet und so weiter. Das ist viel komplizierter, dafür kann man aber recht einfach die Frequenz variieren.
 
 ### Einstellung des Duty-Cycles
+
 Wie bereits erwähnt, funktioniert die Einstellung des Duty-Cycles über den zweiten Parameter der analogWrite()-Funktion. Dieser muss eine Integer zwischen 0 und 255 sein. Zur Umrechnung von Prozentwerten kann man z.B. [map()-Funktion](https://www.arduino.cc/reference/en/language/functions/math/map/)  verwenden. Sie funktioniert so:
 
 ```c++
@@ -65,4 +66,3 @@ achtBitWert = map(prozentWert,0,100,0,255);
 ### Einstellung der Frequenz
 
 coming soon...
- 
