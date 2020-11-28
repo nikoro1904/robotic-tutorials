@@ -11,7 +11,11 @@ excerpt_separator: <!--mehr-->
 
 [![Titelbild_1]({% link assets/media/tutorial_timer/preview_timer.png %}](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
 
-[![Titelbild_2](/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020-11-24/tutorial_timer_2_code.html)
+[![Titelbild_2](assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
+
+<a href="https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html">
+  <img src="/assets/media/tutorial_timer/preview_timer.png" alt="Titelbild_3" style="width:100%;height:100%">
+</a>
 
 <!--mehr-->
 
