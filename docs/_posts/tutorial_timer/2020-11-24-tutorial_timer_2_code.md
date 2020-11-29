@@ -5,8 +5,8 @@ categories:
 excerpt_separator: <!--mehr-->
 ---
 
-[![Titelbild_2](../../../assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
-[![Titelbild_2](../../../assets/media/tutorial_timer/preview_timer.png)](../../../2020/11/24/tutorial_timer_2_code.html)
+[![Titelbild_2](../../../../robotic-tutorials/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
+[![Titelbild_2](../../../../robotic-turials/assets/media/tutorial_timer/preview_timer.png)](../../../2020/11/24/tutorial_timer_2_code.html)
 
 
 <!--mehr-->
