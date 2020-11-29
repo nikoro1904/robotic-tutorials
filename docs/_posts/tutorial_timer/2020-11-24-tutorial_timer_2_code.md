@@ -5,24 +5,15 @@ categories:
 excerpt_separator: <!--mehr-->
 ---
 
-[![Titelbild_2](assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
+[![Titelbild_2](../../../assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
+[![Titelbild_2](../../../assets/media/tutorial_timer/preview_timer.png)](../../../2020/11/24/tutorial_timer_2_code.html)
+
 
 <!--mehr-->
 
-Das sind die Beispielprogramme, die im (zweiten) Youtube-Video verwendet wurden. 
+Das sind die Beispielprogramme, die im (zweiten) Youtube-Video verwendet wurden. Ihr könnt entweder alle Programme auf einmal herunterladen, oder den Code anschauen und für euch passende Stellen rauskopieren.
 
-Video Teil 1/2:
-
-<iframe width="728" height="410" src="https://www.youtube.com/embed/lj4yvjqSDcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Video Teil 2/2:
-
-<iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Alle Arduino-Programme herunterladen][/assets/media/tutorial_timer/code_timer.zip]
-<a href="../../../assets/media/tutorial_timer/code_timer.zip"> Programmcode herunterladen </a>
-<a href="assets/media/tutorial_timer/code_timer.zip" download="download"> HTML-Download-2 </a>
-[Markdown-Download-2](../../assets/media/tutorial_timer/code_timer.zip)
+<a href="../../../assets/media/tutorial_timer/code_timer.zip"> Arduino-Programme herunterladen </a>
 
 ## 1. Die Header-Datei "pwm.h"
 
@@ -68,6 +59,10 @@ int pwm::getDC(){
   return dutyCycle;
 }
 ```
+
+### Video Teil 1/2:
+
+<iframe width="728" height="410" src="https://www.youtube.com/embed/lj4yvjqSDcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 2. Der Fast-PWM-Modus "1_Fast_PWM.ino"
 
@@ -121,6 +116,10 @@ void loop() {
 
 }
 ```
+
+### Video Teil 2/2:
+
+<iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 3. Der Phase-Correct-PWM-Modus "2_Phase_Correct_PWM.ino"
 
