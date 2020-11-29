@@ -5,7 +5,7 @@ categories:
 excerpt-separator: <!--endofexcerpt-->
 ---
 
-[!Titelbild](../../../../robotic-tutorials/assets/media/tutorial_flash/preview_flash.png](https://nikoro1904.github.io/robotic-tutorials/2020/03/30/tutorial_flash_memory.html)
+[![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_flash/preview_flash.png](https://nikoro1904.github.io/robotic-tutorials/2020/03/30/tutorial_flash_memory.html)
 
 This is the Arduino Code we used in the tutorial. (Yes, there's a lot of data in the beginning).
 <!--endofexcerpt-->
