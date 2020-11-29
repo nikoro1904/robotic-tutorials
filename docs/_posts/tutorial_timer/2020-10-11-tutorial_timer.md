@@ -2,7 +2,11 @@
 layout: post
 title: "Timer- und PWM-Funktionen am Arduino einstellen."
 categories:
+excerpt_separator: <!--endofexcerpt-->
 ---
+[![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorial/2020/10/11/tutorial_timer.md)
+
+<!--endofexcerpt-->
 
 Was bedeutet PWM? Wie stelle ich Duty-Cycle und Frequenz eines PWM-Signals ein?
 
@@ -66,3 +70,5 @@ achtBitWert = map(prozentWert,0,100,0,255);
 ### Einstellung der Frequenz
 
 coming soon...
+
+<iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

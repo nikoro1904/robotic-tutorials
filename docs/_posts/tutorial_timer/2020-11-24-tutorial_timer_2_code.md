@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "Beispielprogramme zu Tutorials #17 und #18 - Timer-Funktionen"
+title: "Beispielprogramme - Timer-Funktionen"
 categories:
 excerpt_separator: <!--mehr-->
 ---
 
-[![Titelbild_2](../../../../robotic-tutorials/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
-[![Titelbild_2](../../../../robotic-turials/assets/media/tutorial_timer/preview_timer.png)](../../../2020/11/24/tutorial_timer_2_code.html)
+[//]: # ([![Titelbild_2](../../../../robotic-tutorials/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html))
 
+Hier sind die Beispielprogramme, die in den Youtube-Tutorials #17 und #18 zu den Timer-Funktionen verwendet wurden.
 
 <!--mehr-->
+[![Titelbild_2](../../../../robotic-tutorials/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/11/24/tutorial_timer_2_code.html)
 
-Das sind die Beispielprogramme, die im (zweiten) Youtube-Video verwendet wurden. Ihr könnt entweder alle Programme auf einmal herunterladen, oder den Code anschauen und für euch passende Stellen rauskopieren.
+Du kannst  entweder alle Programme auf einmal herunterladen, oder den Code anschauen und für dich passende Stellen rauskopieren.
 
 <a href="../../../assets/media/tutorial_timer/code_timer.zip"> Arduino-Programme herunterladen </a>
 
