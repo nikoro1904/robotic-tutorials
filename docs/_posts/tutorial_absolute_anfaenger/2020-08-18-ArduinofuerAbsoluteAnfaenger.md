@@ -2,9 +2,12 @@
 layout: post
 title: "Arduino-Grundlagen für absolute Anfänger (#1)"
 categories:
+excerpt_separator: <!--endofexcerpt-->
 ---
+[![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_absolute_anfaenger/preview_anfaenger.png)](https://nikoro1904.github.io/robotic-tutorials/2020/08/18/ArduinofuerAbsoluteAnfaenger.html)
 
 Was ist eigentlich ein Arduino und was brauche ich, um damit zu arbeiten?
+<!--endofexcerpt-->
 
 ## Was ist ein Arduino?
 Ein Arduino ist ein Mikrocontroller (wird manchmal mit µC abgekürzt) auf einer kleinen Platine, zusammen mit ein paar zusätzlichen elektronischen Bauteilen, sodass man ihn ganz einfach verwenden kann. Der eigentliche Mikrocontroller ist nur ein kleiner Chip auf der Platine, z.B. ein ATmega328P von der Firma Atmel. Die Firma “Arduino” hat die Schaltpläne für die Platinen frei verfügbar veröffentlicht, sodass man Arduino-Boards nicht nur von der offiziellen Marke kaufen kann, sondern es gibt auch viele sogenannte “Klone”, die in der Regel billiger sind und genauso gut funktionieren. 
