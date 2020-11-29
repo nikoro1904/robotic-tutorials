@@ -4,7 +4,7 @@ title: "Timer- und PWM-Funktionen am Arduino einstellen."
 categories:
 excerpt_separator: <!--endofexcerpt-->
 ---
-[![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorial/2020/10/11/tutorial_timer.md)
+[![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_timer/preview_timer.png)](https://nikoro1904.github.io/robotic-tutorials/2020/10/11/tutorial_timer.md)
 
 <!--endofexcerpt-->
 
