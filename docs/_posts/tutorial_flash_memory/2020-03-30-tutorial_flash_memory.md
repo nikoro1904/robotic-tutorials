@@ -2,9 +2,13 @@
 layout: post
 title: "Arduino Code for Tutorial #16: Flash Memory"
 categories:
+excerpt-separator: <!--endofexcerpt-->
 ---
 
+[![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_flash/preview_flash.png)](https://nikoro1904.github.io/robotic-tutorials/2020/03/30/tutorial_flash_memory.html)
+
 This is the Arduino Code we used in the tutorial. (Yes, there's a lot of data in the beginning).
+<!--endofexcerpt-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jDxaIuXRgvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
