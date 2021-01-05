@@ -8,9 +8,12 @@ excerpt-separator: <!--endofexcerpt-->
 [![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_flash/preview_flash.png)](https://nikoro1904.github.io/robotic-tutorials/2020/03/30/tutorial_flash_memory.html)
 
 This is the Arduino Code we used in the tutorial. (Yes, there's a lot of data in the beginning).
+
 <!--endofexcerpt-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jDxaIuXRgvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+##### This is the Youtube video where the code is explained:
+
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_flash_memory.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=jDxaIuXRgvo)
 
 ```c
 /*
@@ -46,22 +49,22 @@ const int Sample_Time = 2778 - 2;
 unsigned int datoi = 0;
 
 void setup() {
-	Serial.begin(115200);
+    Serial.begin(115200);
 }
 
 void loop() {
 
-	for(int i=0 ; i <(sizeof(u16data)/sizeof(int)) ; i++){
+    for(int i=0 ; i <(sizeof(u16data)/sizeof(int)) ; i++){
 
-		while((act_time - pas_time) < Sample_Time){
-			act_time = micros();
-		}
-		datoi = pgm_read_word_near(u16data + i);
+        while((act_time - pas_time) < Sample_Time){
+            act_time = micros();
+        }
+        datoi = pgm_read_word_near(u16data + i);
 
     /* Send the data to the serial port */
-		Serial.println(datoi);
-		pas_time = act_time;
-		act_time = micros();
-	}
+        Serial.println(datoi);
+        pas_time = act_time;
+        act_time = micros();
+    }
 }
 ```

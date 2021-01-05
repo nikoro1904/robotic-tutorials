@@ -22,7 +22,7 @@ Die Frequenz dieses PWM-Signals ist konstant und wird vom Timer des Arduinos vor
 
 Der zweite Parameter einer solchen binären Wechselspannung ist der Duty-Cycle. Der Duty-Cycle beschreibt, wie lange das PWM-Signal auf HIGH und wie lange es auf LOW ist. Er wird in Prozent angegeben. Dabei entspricht ein Duty-Cycle von 100% einem HIGH-Anteil von 100% (also im Prinzip eine Gleichspannung von ca. 5 V) und ein Duty-Cycle von 70% dementsprechend einem HIGH-Anteil von 70% und einem LOW-Anteil von 30%.
 
-<iframe width="728" height="410" src="https://www.youtube.com/embed/lj4yvjqSDcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_timer_1.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=lj4yvjqSDcM)
 
 Man kann z.B. eine LED mit einem PWM-Signal anstatt einer Gleichspannung ansteuern. Bei einem Duty-Cycle von z.B. 50% würde sie dann mit einer hohen Frequenz blinken. Da diese Frequenz aber so hoch ist, dass unsere Augen da nicht mitkommen, sehen wir keine blinkende LED sondern eine um 50% schwächer leuchtende LED. Über die Variation des Duty-Cycles lässt sich also die Helligkeit einer LED einstellen, ohne eine analoge Spannung verwenden zu müssen. Das ist ein großer Vorteil, denn so brauchen wir dafür keinen Digital-Analog-Converter, wie er ja auf dem Arduino UNO nicht enthalten ist. Ähnlich wie die Helligkeit einer LED lässt sich mit PWM auch die Drehzahl eines Gleichstrommotors einstellen.
 
@@ -73,4 +73,4 @@ achtBitWert = map(prozentWert,0,100,0,255);
 
 coming soon...
 
-<iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_timer_2.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=HfIPJ1FykdQ)

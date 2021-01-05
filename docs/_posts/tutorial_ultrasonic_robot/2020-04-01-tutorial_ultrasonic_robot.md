@@ -6,7 +6,7 @@ categories:
 
 This is the Arduino Code we used in the tutorial.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hcRbmlVoC-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_ultrasonic_robot.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=hcRbmlVoC-8)
 
 ```c
 /*
@@ -75,7 +75,7 @@ void loop() {
   if(distanceCenter <= 15){
     // Motor STOP FUNCTION
     delay(200);
-    
+
     // The resvomotor turns to the right
     for(int i = 90; i >= 5; i--){
       myServo.write(i);      // Here we will set the position of the servo according to the value in i
@@ -83,7 +83,7 @@ void loop() {
     }
     distanceRight = distanceCalculateRight(trigPin, echoPin);
     delay(20);
-    
+
     // The resvomotor turns to the left
     for(int i = 5; i <= 175; i++){
       myServo.write(i);      // Here we will set the position of the servo according to the value in i
@@ -112,7 +112,7 @@ void loop() {
 int distanceCalculateCenter(int _trigPin, int _echoPin){
 
   int _distanceCenter;
-  
+
   // Here we clear the trigPin
   digitalWrite(_trigPin, LOW);
   delayMicroseconds(2);
@@ -139,7 +139,7 @@ int distanceCalculateCenter(int _trigPin, int _echoPin){
 int distanceCalculateLeft(int _trigPin, int _echoPin){
 
   int _distanceLeft;
-  
+
   // Here we clear the trigPin
   digitalWrite(_trigPin, LOW);
   delayMicroseconds(2);
@@ -166,7 +166,7 @@ int distanceCalculateLeft(int _trigPin, int _echoPin){
 int distanceCalculateRight(int _trigPin, int _echoPin){
 
   int _distanceRight;
-  
+
   // Here we clear the trigPin
   digitalWrite(_trigPin, LOW);
   delayMicroseconds(2);
@@ -188,7 +188,6 @@ int distanceCalculateRight(int _trigPin, int _echoPin){
 ```
 
 ```c
-
 /*
  * By : Robotic Tutorials
  * Date : 31/04/2020
@@ -287,11 +286,11 @@ void setup() {
 void loop() {
 
   distanceCenter = distanceCalculateCenter(trigPin, echoPin);
-  
+
   if(distanceCenter <= 25.0 && distanceCenter >= 10.0){
     Stop(PinSpeed_A, PinSpeed_B, MotorLeft_1A, MotorLeft_2A, MotorRight_3A, MotorRight_4A); 
     delay(200);
-    
+
     // The resvomotor turns to the right
     for(int i = 90; i >= 5; i--){
       myServo.write(i);      // Here we will set the position of the servo according to the value in i
@@ -299,7 +298,7 @@ void loop() {
     }
     distanceRight = distanceCalculateRight(trigPin, echoPin);
     delay(50);
-    
+
     // The resvomotor turns to the left
     for(int i = 5; i <= 175; i++){
       myServo.write(i);      // Here we will set the position of the servo according to the value in i
@@ -321,7 +320,7 @@ void loop() {
       delay(700);
       Stop(PinSpeed_A, PinSpeed_B, MotorLeft_1A, MotorLeft_2A, MotorRight_3A, MotorRight_4A);
       delay(50);
-      
+
     }
     else{
       GoBack(PinSpeed_A, PinSpeed_B, MotorLeft_1A, MotorLeft_2A, MotorRight_3A, MotorRight_4A);
@@ -332,11 +331,11 @@ void loop() {
       delay(50);
     }
   }
-  
+
   else{
       GoForward(PinSpeed_A, PinSpeed_B, MotorLeft_1A, MotorLeft_2A, MotorRight_3A, MotorRight_4A); 
     }
-  
+
 }
 
 
@@ -428,7 +427,7 @@ void Stop(uint8_t u8SpeedMotor1, uint8_t u8SpeedMotor2, uint8_t u8Pin1, uint8_t 
 float distanceCalculateCenter(int _trigPin, int _echoPin){
 
   float _distanceCenter;
-  
+
   // Here we clear the trigPin
   digitalWrite(_trigPin, LOW);
   delayMicroseconds(2);
@@ -455,7 +454,7 @@ float distanceCalculateCenter(int _trigPin, int _echoPin){
 float distanceCalculateLeft(int _trigPin, int _echoPin){
 
   float _distanceLeft;
-  
+
   // Here we clear the trigPin
   digitalWrite(_trigPin, LOW);
   delayMicroseconds(2);
@@ -482,7 +481,7 @@ float distanceCalculateLeft(int _trigPin, int _echoPin){
 float distanceCalculateRight(int _trigPin, int _echoPin){
 
   float _distanceRight;
-  
+
   // Here we clear the trigPin
   digitalWrite(_trigPin, LOW);
   delayMicroseconds(2);
