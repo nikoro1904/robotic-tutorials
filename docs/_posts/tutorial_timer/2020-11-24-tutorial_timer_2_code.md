@@ -119,7 +119,7 @@ void loop() {
 ```
 
 ### Video Teil 2/2:
-[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_timer_1.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=HfIPJ1FykdQ)
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_timer_2.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=HfIPJ1FykdQ)
 
 ## 3. Der Phase-Correct-PWM-Modus "2_Phase_Correct_PWM.ino"
 
