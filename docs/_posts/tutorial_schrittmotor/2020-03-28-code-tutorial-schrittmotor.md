@@ -3,10 +3,14 @@
 layout: post
 title: "Beispielprogramme zu Tutorial #15 - Schrittmotor"
 categories:
+excerpt_separator: <!--endofexcerpt-->
 
 ---
 
 Das sind die Beispielprogramme, die im YouTube-Video verwendet wurden.
+
+<!--endofexcerpt-->
+
 [<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_schrittmotor.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=dYo7K8SLafk)
 
 ##Ansteuerung mit Stepper.h library
