@@ -14,8 +14,7 @@ minima:
 
   # generate social links in footer
   social_links:
-    github:  nikoro1904
-    github:  andresc02
+    github: nikoro1904
 
 #    rss: rss
     # youtube: Robotic Tutorials
