@@ -1,11 +1,20 @@
 ---
+
 layout: post
 title: "Beispielprogramme zu Tutorial #15 - Schrittmotor"
 categories:
+excerpt_separator: <!--endofexcerpt-->
+
 ---
+
 Das sind die Beispielprogramme, die im YouTube-Video verwendet wurden.
 
+<!--endofexcerpt-->
+
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_schrittmotor.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=dYo7K8SLafk)
+
 ##Ansteuerung mit Stepper.h library
+
 ```c
 // Robotic Tutorials Schrittmotor Tutorial
 // Test der Stepper library
@@ -32,7 +41,7 @@ void setup() {
 }
 
 void loop() {
- 
+
  // In die step-Funktion schreiben wir, wieviele Schritte der Motor machen soll.
  // Wenn wir eine negative Zahl angeben, dreht er sich andersherum
  motor_1.step(200);
@@ -40,13 +49,14 @@ void loop() {
 ```
 
 ##Manuelle Ansteuerung im Vollschritt-, Halbschritt- oder Wavedrivebetrieb
+
 ```c
 /* Beispielcode für Schrittmotor-Tutorial (Vollschritt-, Halbschritt-, Wavedrive-Betrieb)
    Robotic Tutorials, 15.02.2020
 
    Dieses Arduino-Programm ist zur Ansteuerung eines bipolaren Hybrid-Schrittmotors.
    In diesem Beispiel dreht sich der Motor einfach immer weiter.
-   
+
    Die Art der Ansteuerung ist der Vollschritt-, Halbschritt-, Wavedrive-Betrieb.
 
    Der Schrittmotor hat zwei Spulen, A und B. Die Spulen haben die Anschlüsse A, A', B und B'
@@ -104,15 +114,15 @@ void loop() {
 }
 ```
 
-
 ##Manuelle Ansteuerung im Mikroschritt-Betrieb
+
 ```c
 /* Beispielcode für Schrittmotor-Tutorial (Mikroschritt-Betrieb)
    Robotic Tutorials, 15.02.2020
 
    Dieses Arduino-Programm ist zur Ansteuerung eines bipolaren Hybrid-Schrittmotors.
    In diesem Beispiel dreht sich der Motor einfach immer weiter.
-   
+
    Die Art der Ansteuerung ist der Mikroschrittbetrieb
 
    Der Schrittmotor hat zwei Spulen, A und B. Die Spulen haben die Anschlüsse A, A', B und B'

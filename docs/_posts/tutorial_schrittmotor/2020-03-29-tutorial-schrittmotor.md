@@ -8,7 +8,7 @@ In diesem Artikel wird erklärt, wie man einen (Hybrid-)Schrittmotor mit dem Ard
 
 Wir haben zu diesem Motor auch ein Video auf YouTube veröffentlicht. Die Arduino-Programme dazu findet ihr in [diesem Artikel](https://nikoro1904.github.io/robotic-tutorials/2020/03/28/code-tutorial-schrittmotor.html).
 
-<iframe width="728" height="410" src="https://www.youtube.com/embed/dYo7K8SLafk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_schrittmotor.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=dYo7K8SLafk)
 
 ## Wozu brauche ich Schrittmotoren?
 

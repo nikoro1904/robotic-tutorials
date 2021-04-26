@@ -1,5 +1,5 @@
 title: Robotic Tutorials
-author: Niko Roßkopf
+author: Niko Roßkopf & Willian Campo
 email: roboter.tutorials.german@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   Arduino und Elektronik Tutorials auf deutsch!
@@ -14,7 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    github:  nikoro1904
+    github: nikoro1904
+
 #    rss: rss
     # youtube: Robotic Tutorials
     # youtube_channel: UCT7OJquYzFHHpyjkZL8APFw

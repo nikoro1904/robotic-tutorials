@@ -63,7 +63,7 @@ int pwm::getDC(){
 
 ### Video Teil 1/2:
 
-<iframe width="728" height="410" src="https://www.youtube.com/embed/lj4yvjqSDcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_timer_1.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=lj4yvjqSDcM)
 
 ## 2. Der Fast-PWM-Modus "1_Fast_PWM.ino"
 
@@ -119,8 +119,7 @@ void loop() {
 ```
 
 ### Video Teil 2/2:
-
-<iframe width="728" height="410" src="https://www.youtube.com/embed/HfIPJ1FykdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_timer_2.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=HfIPJ1FykdQ)
 
 ## 3. Der Phase-Correct-PWM-Modus "2_Phase_Correct_PWM.ino"
 

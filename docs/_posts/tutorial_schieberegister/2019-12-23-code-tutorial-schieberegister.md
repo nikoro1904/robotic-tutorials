@@ -7,7 +7,7 @@ categories:
 
 Das sind die Beispielprogramme, die im Youtube-Video verwendet wurden. 
 
-<iframe width="728" height="410" src="https://www.youtube.com/embed/xMDiBpyuriU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_schieberegister.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=xMDiBpyuriU)
 
 ### 1. In das Schieberegister schreiben
 

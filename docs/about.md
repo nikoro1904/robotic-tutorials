@@ -10,7 +10,11 @@ Wir sind zwei Studenten aus Deutschland und Kolumbien und wollen mit dieser Webs
 
 **Unsere Tutorials und Arduino Projekte allgemein sollten niemals für sicherheitsrelevante oder sicherheitskritische Anwendungen verwendet werden! Außerdem sollte NIEMALS ein Schaltkreis direkt an das Stromnetz angeschlossen werden, sondern IMMER über ein Netzteil oder einen Akku betrieben werden!**  
 
-Für Kritik, Wünsche, spezifische Fragen oder andere Sachen schreibt uns einfach eine Mail an roboter.tutorials.german@gmail.com.  
+Für Kritik, Wünsche, spezifische Fragen oder andere Sachen schreibt uns einfach eine Mail an roboter.tutorials.german@gmail.com. 
+
+Unsere Github-Profile:
+ - Willian Andres Campo: [andresc02](https://github.com/andresc02)
+ - Niko Roßkopf: [nikoro1904](https://github.com/nikoro1904)
 
 
 ***
