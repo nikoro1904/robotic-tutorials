@@ -107,4 +107,6 @@ Wir hoffen, ihr konntet aus dem Video etwas mitnehmen. Links zum Arduino-Code un
 
 Differential drive is a drive of two independent motors or wheels on the same axis. This means the right and the left wheel each have their own motor. Wheels on other axes don't need to be driven. If both wheels drive forward, the robot also goes forward. If both go backwards, the robot goes backwards. However, if for example the left wheel goes faster than the right one, then the robot does a curve to the right, because its left side is faster and "overtakes" the right side. The name "differential" comes from the wheels' difference in rotation speed which decides about the direction the robot goes.
 
-...
+### Was ist ein Differentialantrieb?
+
+Ein Differentrialantrieb, oder kurz einfach "Differential", auf englisch "differential drive", ist ein Antrieb aus zwei unabhängigen Motoren einer Achse. D.h. das rechte und das linke Rad haben jeweils einen eigenen Motor. Räder der anderen Achsen benötigen dann keinen Antrieb. Drehen beide Motoren vorwärts, fährt der Roboter nach vorne. Drehen beide rückwärts, fährt er nach hinten. Dreht dabei aber z.B. der linke Motor schneller wie der rechte, macht der Roboter eine Rechtskurve, weil die linke Seite schneller fährt und die rechte Seite quasi "überholt". Der Name "Differential" kommt daher, dass die Richtung des Roboters über die Differenz, also den Unterschied der Drehzahlen der Räder eingestellt wird.
