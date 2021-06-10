@@ -1,5 +1,10 @@
 # robotic-tutorials
 
+Willkommen in unserem Github-Repo. Wir sind [nikoro1904](https://github.com/nikoro1904) und [andresc02](https://github.com/andresc02), zusammen haben wir einen [Youtube-Kanal](https://www.youtube.com/c/RoboticTutorials).
+Arduino-Code und Schaltpläne aus den Video-Tutorials sind im Ordner "videos". 
+Bisher haben wir dafür einen [Google Drive Ordner](https://drive.google.com/drive/folders/0B6KgEq0q0d9uQWlEeUJCLUwwQVE?resourcekey=0-bZOZcw61wrdGIlWzsF2kTg) und die  [Website](https://nikoro1904.github.io/robotic-tutorials/) verwendet, deshalb ist das meiste Material noch dort zugänglich, bis wir den Transfer komplett haben.
+Auf unserer Webseite findet ihr noch zusätzliche Erklärungen zu manchen Videos.
+
 ![yt_banner](docs/assets/media/marketing/website_banner.jpeg)
 
 ## Website: [https://nikoro1904.github.io/robotic-tutorials/](https://nikoro1904.github.io/robotic-tutorials/)
