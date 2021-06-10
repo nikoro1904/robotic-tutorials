@@ -2,10 +2,10 @@
 #define JOYSTICK_X A0
 #define JOYSTICK_Y A1
 
-#define A 1.0
-#define B 1.0
-#define C -1.0
-#define D 1.0
+#define A 1.0   // alternative: -0.5
+#define B 1.0   // alternative: 1
+#define C -1.0  // alternative: 0.5
+#define D 1.0   // alternative: 1
 
 #define INPUT1 2
 #define INPUT2 3
