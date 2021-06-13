@@ -60,7 +60,7 @@ Alle folgenden Kombinationen müssen "linear unabhängig" von den vorherigen sei
 
 Eine weitere Kombination wäre (1, 0) und (-1, 1). Das bedeutet übersetzt: Bewegen wir den Joystick nur nach rechts, soll der Roboter sich auch nur nach rechts drehen, ohne dabei nach vorne und hinten zu fahren. Dafür muss der linke Motor nach vorne drehen (+1) und der rechte gleichzeitig nach hinten (-1).
 
-Eine weitere nötige und mögliche Kombination seht ihr hier in blau. Durch das Einsetzen in die Gleichungen können wir die Parameter der Matrix bestimmen. Wir erhalten z.B. folgende Matrix.
+Durch das Einsetzen in die Gleichungen können wir die Parameter der Matrix bestimmen. Wir erhalten z.B. folgende Matrix.
 
 (a, b; c, d) = (-1, 1; 1, 1)
 
