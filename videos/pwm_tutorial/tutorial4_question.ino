@@ -12,7 +12,7 @@ void loop() {
   analogWrite(led, Helligkeit);
   Helligkeit = Helligkeit + aenderung;
   if (Helligkeit >= 255 || Helligkeit <= 0) { 
-    // Beachte, dass ">" mit ">=" und "<" mit "<" ausgetauscht wurde, das war auch ein Fehler im Code
+    // Beachte, dass ">" mit ">=" und "<" mit "<=" ausgetauscht wurde, das war auch ein Fehler im Code
     //Helligkeit = -Helligkeit; // Diese Zeile war FALSCH!
     aenderung = -aenderung;     // Diese Zeile ist dafür richtig.
   }
