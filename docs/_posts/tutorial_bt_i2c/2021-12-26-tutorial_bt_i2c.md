@@ -5,8 +5,6 @@ categories:
 excerpt-separator: <!--endofexcerpt-->
 ---
 
-[![Titelbild](../../../../robotic-tutorials/assets/media/tutorial_flash/preview_flash.png)](https://nikoro1904.github.io/robotic-tutorials/2020/03/30/tutorial_flash_memory.html)
-
 Das ist der Arduino-Code und ESP32-Code aus Tutorial 20: "Bluetooth-I2C-Datenübertragung".
 
 <!--endofexcerpt-->
