@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Arduino Code for Tutorial #20: Bluetooth-I2C-Datenübertragung"
+title: "Arduino Code für Bluetooth-I2C-Datenübertragung (Tutorial #21)"
 categories:
 excerpt-separator: <!--endofexcerpt-->
 ---
 
-Das ist der Arduino-Code und ESP32-Code aus Tutorial 20: "Bluetooth-I2C-Datenübertragung".
+Das ist der Arduino-Code und ESP32-Code aus Tutorial 21: "Bluetooth-I2C-Datenübertragung".
 
 <!--endofexcerpt-->
 
 ##### Hier kommt ihr zum Video mit einer ausführlichen Erklärung des Codes:
 
-[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_flash_memory.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=jDxaIuXRgvo)
+[<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_bt_i2c.png" alt="Link-Image">](https://youtu.be/RlX-7CTplSk)
 
 ## Programm für den ESP32:
 
