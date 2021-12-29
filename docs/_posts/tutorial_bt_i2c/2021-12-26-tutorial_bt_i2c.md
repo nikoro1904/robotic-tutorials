@@ -13,6 +13,8 @@ Das ist der Arduino-Code und ESP32-Code aus Tutorial 21: "Bluetooth-I2C-Datenüb
 
 [<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_bt_i2c.png" alt="Link-Image">](https://youtu.be/RlX-7CTplSk)
 
+**Ihr findet die Programme auch in unserem [Github-Repo](https://github.com/nikoro1904/robotic-tutorials/tree/master/videos/bluetooth_i2c)**
+
 ## Programm für den ESP32:
 
 ```c

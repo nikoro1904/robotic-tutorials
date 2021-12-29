@@ -6,7 +6,7 @@ categories:
 
 In diesem Artikel wird erklärt, wie man einen (Hybrid-)Schrittmotor mit dem Arduino ansteuern kann. Wir verwenden einen bipolaren Motor, also einen mit zwei Spulen und vier Anschlüssen.
 
-Wir haben zu diesem Motor auch ein Video auf YouTube veröffentlicht. Die Arduino-Programme dazu findet ihr in [diesem Artikel](https://nikoro1904.github.io/robotic-tutorials/2020/03/28/code-tutorial-schrittmotor.html).
+Wir haben zu diesem Motor auch ein Video auf YouTube veröffentlicht. Die Arduino-Programme dazu findet ihr in [diesem Artikel](https://nikoro1904.github.io/robotic-tutorials/2020/03/28/code-tutorial-schrittmotor.html) und in unserem [Github-Repo](https://github.com/nikoro1904/robotic-tutorials/tree/master/videos/stepper_motor).
 
 [<img src="../../../../../robotic-tutorials/assets/media/Youtube_Link_images/yt_link_schrittmotor.jpg" alt="Link-Image">](https://www.youtube.com/watch?v=dYo7K8SLafk)
 
