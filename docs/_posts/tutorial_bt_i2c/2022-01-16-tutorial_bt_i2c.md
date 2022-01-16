@@ -28,7 +28,7 @@ Ein ESP32-Board kann da eine billigere Alternative sein. Und es bietet viiiiiiii
 
 Wir wollen Arduino (Nano) und ESP32 über die I2C-Schnittstelle verbinden. Das ist ganz einfach, es gibt nur zwei Leitungen. Wir verbinden einfach die beiden SCL- und die beiden SDA-Pins miteinander. SCL ist die "Serial Clock" und SDA ist "Serial Data". Beim Arduino Nano sind das die Pins A5 für SCL und A4 für SDA. Beim ESP32 kommt es darauf an, welches Board ihr verwendet. Ich habe ein NodeMCU-32s Board, das hat den SCL-0 Pin an GPIO 22 und den SDA-0 Pin an GPIO 21. Dann müssen wir nur noch die beiden Grounds der Mikrocontroller zusammenschließen.
 
-![Hardware-Verbindungen ESP32 und Arduino Nano](../../assets/media/tutorial_bt_i2c/hardware_connections.png)
+![Hardware-Verbindungen ESP32 und Arduino Nano](../../../../robotic-tutorials/assets/media/tutorial_bt_i2c/hardware_connections.png)
 
 ## Software
 
