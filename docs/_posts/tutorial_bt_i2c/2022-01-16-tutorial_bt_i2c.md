@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bluetooth-I2C-Datenübertragung (Tutorial #21)"
-categories: esp32, bluetooth, arduino
+categories:
 excerpt-separator: <!--endofexcerpt-->
 ---
 
